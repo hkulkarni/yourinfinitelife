@@ -12,5 +12,19 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require twitter/bootstrap
 //= require_tree .
+
+$(document).ready(function() {
+	addMainImage();
+});
+
+function addMainImage() {
+	var mainHeaderDiv = document.getElementById('add_main_image'),
+		imageHtml = "";
+
+
+	if (mainHeaderDiv) {
+		mainHeaderDiv.append(imageHtml);
+	}
+}

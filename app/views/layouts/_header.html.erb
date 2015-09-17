@@ -1,0 +1,28 @@
+<div class="title_logo_container">
+  <div class="row" id="<% yield :main_container_id %>">
+	<div class="col-xs-10">
+	  <img class="img-responsive center-block main_logo" src="http://placehold.it/100x50">
+	  <div id="title_description">
+	    <span class="text-uppercase" id="company_title">Your Infinite Life</span>
+	    <span class="text-uppercase" id="company_description">Training & Coaching Company</span>
+	  </div>
+	</div>
+	<div class="col-xs-2 text-center">
+	  <%= icon('shopping-cart', id: 'shopping_cart') %>
+    </div>
+  </div>
+</div>
+
+<div class="extra_padded_container">
+  <ul class="nav nav-pills nav-justified" id="navbar_links">
+	<li><%= link_to 'About Us', '#', class: 'text-muted' %></li>
+	<li><%= link_to 'Course Experiences', '#' %></li>
+	<li><%= link_to 'Coaching', '#' %></li>
+	<li><%= link_to 'Enroll', '#' %></li>
+	<li><%= link_to 'Resources', '#' %></li>
+	<li><%= link_to 'Products', '#' %></li>
+	<li><%= link_to 'Blog', '#' %></li>
+	<li><%= link_to 'Peaceful Project', '#' %></li>
+	<li><%= link_to 'Contact', '#' %></li>
+  </ul>
+</div>

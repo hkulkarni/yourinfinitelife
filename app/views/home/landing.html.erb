@@ -1,2 +1,61 @@
-<h1>Home#landing</h1>
-<p>Find me in app/views/home/landing.html.erb</p>
+<% content_for :main_container_id do %>
+	add_main_image
+<% end %>
+<div class="extra_padded_container">
+  <div class="row">
+    <h1 class="text-center extra_bottom_margin">Who are we?</h1>
+    <div class="col-xs-12 clearfix">
+	  <p class="text-center">
+	    Our mission is to assist people to discover, honor and express their unique contribution in the world, which we say, is their magnificence!
+	  </p>
+	  <p class="text-center">
+	    Your Infinite Life Training & Coaching Company serves as a bridge for people as we guide them to discover, honor and live their unique life's purpose. We provide training and coaching via course experiences, quests, coaching, books and workshops.
+	  </p>
+	  <p class="text-center">
+	    WHY we offer our courses, WHY we are in business – to assist people in discovering, honoring and expressing their unique contribution in the world – their magnificence.  The discovery, the honoring, the expression of magnificence means that we treat each other and ourselves more compassionately, we see each other and ourselves as brilliant, we judge from the beauty and care about the pain.  This is the richness the world – and YOU – deserves to experience!
+	  </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="text-center extra_bottom_margin">Our Services</h1>
+    <div class="col-sm-3 company_service">
+	  <img src="http://placehold.it/200x200" class="img-circle center-block">
+    </div>
+    <div class="col-sm-3 company_service">
+	  <img src="http://placehold.it/200x200" class="img-circle center-block">
+    </div>
+    <div class="col-sm-3 company_service">
+	  <img src="http://placehold.it/200x200" class="img-circle center-block">
+    </div>
+    <div class="col-sm-3 company_service">
+	  <img src="http://placehold.it/200x200" class="img-circle center-block">
+    </div>
+  </div>
+
+  <div class="row full-width-background">
+    <div class="col-sm-4">
+	  <p class="text-center" style="font-size:40px; font-weight:bold">13</p>
+	  <p class="text-center" style="font-size:25px">age of youngest course graduate</p>
+    </div>
+    <div class="col-sm-4">
+	  <p class="text-center"><%= icon('globe', style: 'font-size:40px; padding:10px') %></p>
+	  <p class="text-center" style="font-size:25px">courses in 25 US cities & 4 continents</p>
+    </div>
+    <div class="col-sm-4">
+	  <p class="text-center"><%= icon('smile-o', style: 'font-size:40px; padding:10px') %></p>
+	  <p class="text-center" style="font-size:25px">millions of lives transformed</p>
+    </div>
+  </div>
+
+  <div class="row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"></div>
+  </div>
+
+  <div class="row">
+	<div class="col-md-8 col-sm-10"></div>
+	<div class="col-md-4 col-sm-2"></div>
+  </div>
+</div>

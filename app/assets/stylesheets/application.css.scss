@@ -1,0 +1,90 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+* {
+  font-family:"Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;
+  margin:0;
+  padding:0;
+//  border: 1px solid #a0a0a0;
+}
+
+.extra_padded_container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.extra_bottom_margin {
+  margin-bottom: 30px;
+}
+
+.row {
+  margin: 30px -15px;
+}
+
+.full-width-background {
+  padding: 5%;
+  background-color: rgba(197, 197, 197, 0.75);
+  margin: 50px -45px;
+}
+
+#title_description {
+  display: inline-block;
+  span {
+    display: block;
+  }
+  #company_title { font-size: 20px; }
+  #company_description { font-size: 12px; }
+}
+
+.main_logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#shopping_cart {
+  font-size: 18px;
+  padding: 16px;
+}
+
+#navbar_links {
+  padding: 10px 20px;
+  li {
+    padding: 10px;
+    a {
+      color: #000;
+      padding: 0;
+    }
+  }
+}
+
+.company_service {
+  margin: auto 45px;
+  border: 2px solid rgba(197, 197, 197, 0.75);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  img {
+    border-radius: 50%;
+    opacity: 0.6;
+  }
+}
+
+
