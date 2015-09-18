@@ -20,11 +20,14 @@ $(document).ready(function() {
 });
 
 function addMainImage() {
-	var mainHeaderDiv = document.getElementById('add_main_image'),
-		imageHtml = "";
+	var mainHeaderDiv = $('.add_main_image');
+
+	var img_src = "http://placehold.it/" + window.outerWidth + "x500",
+		imageHtml = '<img class="img-responsive" src=' + img_src + '>';
 
 
 	if (mainHeaderDiv) {
-		mainHeaderDiv.append(imageHtml);
+//		mainHeaderDiv.append(imageHtml);
+		$(imageHtml).insertAfter(mainHeaderDiv);
 	}
 }

@@ -1,4 +1,4 @@
-<% content_for :main_container_id do %>
+<% content_for :main_container_class do %>
 	add_main_image
 <% end %>
 <div class="extra_padded_container">
@@ -49,13 +49,53 @@
   </div>
 
   <div class="row">
-	<div class="col-sm-4"></div>
-	<div class="col-sm-4"></div>
-	<div class="col-sm-4"></div>
+	<div class="col-sm-4">
+	  <h3 class="text-uppercase banner_header">Video</h3>
+	  <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/87110435" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/87110435">Video Placeholder</a> from <a href="https://vimeo.com/t3chstudios">T3ch Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	  </div>
+	  <p class="text-uppercase text-right see_more_link">See More ></p>
+	</div>
+	<div class="col-sm-4">
+	  <h3 class="text-uppercase banner_header">Testimonial</h3>
+	  <div>
+		<p class="extra_bottom_margin" style="font-size:16px; line-height:1.7;">"My wife and I took the Remembrance course and it has changed our lives and enhanced our relationship. We had a good relationship before and the course experience increased our love and trust for each other. Due to this increased love and trust we now enjoy each other more. Thank you."</p>
+		<h4 class="text-uppercase">Ramon & Susan Ibarra</h4>
+	  </div>
+	  <p class="text-uppercase text-right see_more_link">See More ></p>
+	</div>
+	<div class="col-sm-4">
+	  <h3 class="text-uppercase banner_header">Read</h3>
+	  <div id="book_img_text">
+		<img src="https://www.yourinfinitelifeonline.com/files/1414117380_book.png" class="img-responsive">
+		<span>A book to help you express your true nature from your core values by embracing the magnificence in yourself and others.</span>
+	  </div>
+	  <p class="text-uppercase text-right see_more_link">Order ></p>
+	</div>
   </div>
 
+  <hr id="home_page_break">
+
   <div class="row">
-	<div class="col-md-8 col-sm-10"></div>
-	<div class="col-md-4 col-sm-2"></div>
+	<div class="col-md-8 col-sm-10">
+	  <h3 class="text-uppercase banner_header">Upcoming Courses</h3>
+	</div>
+	<div class="col-md-4 col-sm-2">
+	  <div class="social_section">
+		<h3 class="text-uppercase banner_header">Social</h3>
+		<%= link_to icon('twitter'), '#' %>
+		<%= link_to icon('facebook-official'), '#' %>
+		<%= link_to icon('instagram'), '#' %>
+	  </div>
+	  <div class="social_section">
+		<h3 class="text-uppercase banner_header">Join Our Newsletter</h3>
+		<form>
+		  <div class="form-group">
+			<input type="email" class="form-control" id="newsletter_email_input">
+			<input type="submit" class="text-uppercase" id="newsletter_email_submit" value="Go >">
+		  </div>
+		</form>
+	  </div>
+	</div>
   </div>
 </div>

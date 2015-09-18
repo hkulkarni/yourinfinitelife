@@ -24,6 +24,11 @@
 //  border: 1px solid #a0a0a0;
 }
 
+.row.header_or_footer {
+  margin: 0;
+  padding: 15px;
+}
+
 .extra_padded_container {
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +48,14 @@
   padding: 5%;
   background-color: rgba(197, 197, 197, 0.75);
   margin: 50px -45px;
+}
+
+#footer_banner {
+  background-color: rgba(197, 197, 197, 0.9);
+  p {
+    margin: 0;
+    color: #fff;
+  }
 }
 
 #title_description {
@@ -85,6 +98,67 @@
     border-radius: 50%;
     opacity: 0.6;
   }
+}
+
+.see_more_link {
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.banner_header {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#book_img_text {
+  height: 210px;
+  img {
+    display: inline-block;
+    width: 45%;
+    height: 230px;
+    position: relative;
+    top: -10px;
+  }
+  span {
+    display: inline-block;
+    width: 45%;
+    padding: 15px;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+
+#home_page_break {
+  margin: 20px -45px;
+  border: 0;
+  border-top: 1px solid rgba(197, 197, 197, 0.75);
+}
+
+.social_section {
+  padding-bottom: 30px;
+  a {
+    margin-right: 30px;
+    color: #000;
+  }
+  .fa { font-size: 30px; }
+}
+
+#newsletter_email_input {
+  display: inline-block;
+  width: 85%;
+  background-color: rgba(197, 197, 197, 0.75);
+}
+
+#newsletter_email_submit {
+  display: inline-block;
+  padding: 2px;
+  font-size: 10px;
+  background-color: rgba(32, 32, 158, 0.88);
+  color: #fff;
+  position: relative;
+  left: -42px;
+  top: -2px;
 }
 
 
