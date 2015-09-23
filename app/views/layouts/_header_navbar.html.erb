@@ -1,0 +1,29 @@
+<ul class="nav nav-pills nav-justified" id="main_navbar">
+  <li class="navbar_link">
+	<%= link_to 'About Us', about_path, class: 'text-muted' %>
+	<ul class="nav nav_dropdown_menu">
+	  <li class="primary_links" style="display: inline-block"><%= link_to 'Your Infinite Life', '#' %></li>
+	  <li class="primary_links" style="display: inline-block">
+		<%= link_to 'Pamela Dunn', about_pamela_dunn_path %>
+		<ul class="nav secondary_links">
+		  <li><%= link_to 'Books', pamela_dunn_books_path %></li>
+		  <li><%= link_to 'Workshops', pamela_dunn_workshops_path %></li>
+		  <li><%= link_to 'Consultations', pamela_dunn_coaching_path %></li>
+		</ul>
+	  </li>
+	  <li class="primary_links" style="display: inline-block"><%= link_to 'Instructors and Coaches', instructors_path %></li>
+	</ul>
+  </li>
+  <li class="navbar_link">
+	<%= link_to 'Course Experiences', courses_overview_path, class: 'text-muted' %>
+	<ul class="nav nav_dropdown_menu">
+	</ul>
+  </li>
+  <li class="navbar_link"><%= link_to 'Coaching', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Enroll', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Resources', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Products', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Blog', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Peaceful Project', '#', class: 'text-muted' %></li>
+  <li class="navbar_link"><%= link_to 'Contact', '#', class: 'text-muted' %></li>
+</ul>

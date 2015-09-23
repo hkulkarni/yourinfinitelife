@@ -50,6 +50,10 @@
   margin: 50px -45px;
 }
 
+#header_banner {
+  width: 100%;
+}
+
 #footer_banner {
   background-color: rgba(197, 197, 197, 0.9);
   p {
@@ -73,19 +77,50 @@
 }
 
 #shopping_cart {
+  border: 1px solid #000;
   font-size: 18px;
-  padding: 16px;
+  padding: 8px 20px;
 }
 
-#navbar_links {
-  padding: 10px 20px;
+#main_navbar_holder{
+  z-index: 101;
+}
+
+#main_navbar {
+  padding: 20px;
   li {
     padding: 10px;
     a {
+      display: inline-block;
+      margin: 0 auto;
+      width: 100%;
+      text-decoration: none;
       color: #000;
       padding: 0;
     }
   }
+}
+
+.nav_dropdown_menu {
+  display: none;
+  margin-top: 10px;
+  position: absolute;
+  left: -70px;
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(197, 197, 197, 0.75);
+  opacity: 1.7;
+  z-index: 99;
+}
+
+.primary_links {
+  left: 70px;
+  vertical-align: top;
+}
+
+.secondary_links {
+  left: 25%;
+  position: relative;
 }
 
 .company_service {

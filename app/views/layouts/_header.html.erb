@@ -1,5 +1,5 @@
 <div class="title_logo_container">
-  <div class="row header_or_footer <%= yield :main_container_class %>">
+  <div class="row header_or_footer <%= yield :main_container_class %>" id="header_banner">
 	<div class="col-xs-10">
 	  <img class="img-responsive center-block main_logo" src="http://placehold.it/100x50">
 	  <div id="title_description">
@@ -13,16 +13,6 @@
   </div>
 </div>
 
-<div class="extra_padded_container">
-  <ul class="nav nav-pills nav-justified" id="navbar_links">
-	<li><%= link_to 'About Us', '#', class: 'text-muted' %></li>
-	<li><%= link_to 'Course Experiences', '#' %></li>
-	<li><%= link_to 'Coaching', '#' %></li>
-	<li><%= link_to 'Enroll', '#' %></li>
-	<li><%= link_to 'Resources', '#' %></li>
-	<li><%= link_to 'Products', '#' %></li>
-	<li><%= link_to 'Blog', '#' %></li>
-	<li><%= link_to 'Peaceful Project', '#' %></li>
-	<li><%= link_to 'Contact', '#' %></li>
-  </ul>
+<div class="extra_padded_container" id="main_navbar_holder">
+  <%= render 'layouts/header_navbar' %>
 </div>
