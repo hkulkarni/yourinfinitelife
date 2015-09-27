@@ -35,6 +35,9 @@ Rails.application.routes.draw do
   # Contact
   get '/contact' => 'home#contact'
 
+  # Blog
+  resources :posts
+
   resources :charges
 
   root 'home#landing'
