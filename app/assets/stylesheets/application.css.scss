@@ -87,7 +87,7 @@
 }
 
 #main_navbar {
-  padding: 20px;
+  padding: 10px;
   li {
     padding: 10px;
     a {
@@ -96,7 +96,7 @@
       width: 100%;
       text-decoration: none;
       color: #000;
-      padding: 0;
+      padding: 5px;
     }
   }
 }
@@ -123,77 +123,8 @@
   position: relative;
 }
 
-.company_service {
-  margin: auto 45px;
-  border: 2px solid rgba(197, 197, 197, 0.75);
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  img {
-    border-radius: 50%;
-    opacity: 0.6;
-  }
-}
+/* css for tablets */
+@media only screen and (max-width: 768px){
 
-.see_more_link {
-  margin: 10px auto;
-  font-size: 16px;
 }
-
-.banner_header {
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-#book_img_text {
-  height: 210px;
-  img {
-    display: inline-block;
-    width: 45%;
-    height: 230px;
-    position: relative;
-    top: -10px;
-  }
-  span {
-    display: inline-block;
-    width: 45%;
-    padding: 15px;
-    vertical-align: middle;
-    font-size: 16px;
-    line-height: 1.7;
-  }
-}
-
-#home_page_break {
-  margin: 20px -45px;
-  border: 0;
-  border-top: 1px solid rgba(197, 197, 197, 0.75);
-}
-
-.social_section {
-  padding-bottom: 30px;
-  a {
-    margin-right: 30px;
-    color: #000;
-  }
-  .fa { font-size: 30px; }
-}
-
-#newsletter_email_input {
-  display: inline-block;
-  width: 85%;
-  background-color: rgba(197, 197, 197, 0.75);
-}
-
-#newsletter_email_submit {
-  display: inline-block;
-  padding: 2px;
-  font-size: 10px;
-  background-color: rgba(32, 32, 158, 0.88);
-  color: #fff;
-  position: relative;
-  left: -42px;
-  top: -2px;
-}
-
 
