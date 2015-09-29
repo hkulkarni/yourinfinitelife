@@ -45,7 +45,7 @@
 }
 
 .full-width-background {
-  padding: 5%;
+  padding: 60px 50px;
   background-color: rgba(197, 197, 197, 0.75);
   margin: 50px -45px;
 }
@@ -101,13 +101,15 @@
   }
 }
 
+.navbar-toggle.collapsed {
+  float: left;
+}
+
 .nav_dropdown_menu {
   display: none;
   margin-top: 10px;
   position: absolute;
-  left: -70px;
-  background: no-repeat center center fixed;
-  background-size: cover;
+  left: -40px;
   background-color: rgba(197, 197, 197, 0.75);
   opacity: 1.7;
   z-index: 99;
@@ -125,6 +127,11 @@
 
 /* css for tablets */
 @media only screen and (max-width: 768px){
+  #main_navbar_holder {
+    width: 50%;
+  }
 
+  .secondary_links {
+    left: 0;
+  }
 }
-

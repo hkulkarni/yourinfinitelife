@@ -19,6 +19,7 @@
 
   <div class="row">
     <h1 class="text-center extra_bottom_margin">Our Services</h1>
+	<div>
     <div class="col-sm-3 company_service">
 	  <img src="http://placehold.it/200x200" class="img-circle center-block">
     </div>
@@ -31,27 +32,30 @@
     <div class="col-sm-3 company_service">
 	  <img src="http://placehold.it/200x200" class="img-circle center-block">
     </div>
+	</div>
   </div>
 
   <div class="row full-width-background">
-    <div class="col-sm-4">
-	  <p class="text-center" style="font-size:40px; font-weight:bold">13</p>
-	  <p class="text-center" style="font-size:25px">age of youngest course graduate</p>
+    <div class="col-sm-4" style="padding-top:10px; margin:30px auto">
+	  <p class="text-center">
+		<span id="youngest_age">13</span>
+	  </p>
+	  <p class="text-center" style="font-size:25px; line-height:30px">age of youngest course graduate</p>
     </div>
-    <div class="col-sm-4">
-	  <p class="text-center"><%= icon('globe', style: 'font-size:40px; padding:10px') %></p>
-	  <p class="text-center" style="font-size:25px">courses in 25 US cities & 4 continents</p>
+    <div class="col-sm-4" style="margin:30px auto">
+	  <p class="text-center"><%= icon('globe', style: 'font-size:40px') %></p>
+	  <p class="text-center" style="font-size:25px; line-height:30px">courses in 25 US cities & 4 continents</p>
     </div>
-    <div class="col-sm-4">
-	  <p class="text-center"><%= icon('smile-o', style: 'font-size:40px; padding:10px') %></p>
-	  <p class="text-center" style="font-size:25px">millions of lives transformed</p>
+    <div class="col-sm-4" style="margin:30px auto">
+	  <p class="text-center"><%= icon('smile-o', style: 'font-size:40px') %></p>
+	  <p class="text-center" style="font-size:25px; line-height:30px">millions of lives transformed</p>
     </div>
   </div>
 
   <div class="row">
 	<div class="col-sm-4">
 	  <h3 class="text-uppercase banner_header">Video</h3>
-	  <div class="embed-responsive embed-responsive-16by9">
+	  <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:15px">
 		<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/87110435" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/87110435">Video Placeholder</a> from <a href="https://vimeo.com/t3chstudios">T3ch Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 	  </div>
 	  <p class="text-uppercase text-right see_more_link">See More ></p>
@@ -59,7 +63,7 @@
 	<div class="col-sm-4">
 	  <h3 class="text-uppercase banner_header">Testimonial</h3>
 	  <div>
-		<p class="extra_bottom_margin" style="font-size:16px; line-height:1.7;">"My wife and I took the Remembrance course and it has changed our lives and enhanced our relationship. We had a good relationship before and the course experience increased our love and trust for each other. Due to this increased love and trust we now enjoy each other more. Thank you."</p>
+		<p style="font-size:16px; line-height:1.7;">"My wife and I took the Remembrance course and it has changed our lives and enhanced our relationship. We had a good relationship before and the course experience increased our love and trust for each other. Due to this increased love and trust we now enjoy each other more. Thank you."</p>
 		<h4 class="text-uppercase">Ramon & Susan Ibarra</h4>
 	  </div>
 	  <p class="text-uppercase text-right see_more_link">See More ></p>
@@ -83,9 +87,9 @@
 	<div class="col-md-4 col-sm-2">
 	  <div class="social_section">
 		<h3 class="text-uppercase banner_header">Social</h3>
-		<%= link_to icon('twitter'), '#' %>
-		<%= link_to icon('facebook-official'), '#' %>
-		<%= link_to icon('instagram'), '#' %>
+		<%= icon('twitter', class: 'social-icon', data: {target: 'www.twitter.com'}) %>
+		<%= icon('facebook-official', class: 'social-icon',  data: {target: 'www.facebook.com'}) %>
+		<%= icon('instagram', class: 'social-icon',  data: {target: 'www.instagram.com'}) %>
 	  </div>
 	  <div class="social_section">
 		<h3 class="text-uppercase banner_header">Join Our Newsletter</h3>
