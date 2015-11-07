@@ -10,27 +10,50 @@
   	    <li class="navbar_link">
 		  <%= link_to 'About Us', about_path, class: 'text-muted' %>
 		    <ul class="nav nav_dropdown_menu">
-	  		  <li class="primary_links" style="display: inline-block"><%= link_to 'Your Infinite Life', '#' %></li>
-	  		  <li class="primary_links" style="display: inline-block">
-			    <%= link_to 'Pamela Dunn', about_pamela_dunn_path %>
-			    <ul class="nav secondary_links">
-		  		  <li><%= link_to 'Books', pamela_dunn_books_path %></li>
-		  		  <li><%= link_to 'Workshops', pamela_dunn_workshops_path %></li>
-		  		  <li><%= link_to 'Consultations', pamela_dunn_coaching_path %></li>
-			    </ul>
-	  		  </li>
-	  	  	  <li class="primary_links" style="display: inline-block"><%= link_to 'Instructors and Coaches', instructors_path %></li>
+              <li class="primary_links"><%= link_to 'About Pam Dunn', '#' %></li>
+              <li class="primary_links"><%= link_to 'About the Instructors', '#' %></li>
+              <li class="primary_links"><%= link_to 'Testimonials', '#' %></li>
 		    </ul>
   	  	</li>
   	  	<li class="navbar_link">
-		  <%= link_to 'Course Experiences', courses_overview_path, class: 'text-muted' %>
+		  <%= link_to 'Course Experiences and Training', courses_overview_path, class: 'text-muted' %>
 		  <ul class="nav nav_dropdown_menu">
+              <li class="primary_links"><%= link_to 'Remembrance Course', '#' %></li>
+              <li class="primary_links"><%= link_to 'Freedom To Be', '#' %></li>
+              <li class="primary_links"><%= link_to 'Wonder Child Experience', '#' %></li>
+              <li class="primary_links"><%= link_to 'Quest Retreat', '#' %></li>
+              <li class="primary_links"><%= link_to 'Advanced Level Mastery Training', '#' %></li>
+              <li class="primary_links"><%= link_to 'Instructor Certification Training', '#' %></li>
+              <li class="primary_links"><%= link_to 'Corporate, School & Sports Team Services', '#' %>
+                <ul class="nav secondary_links">
+                  <li><%= link_to 'Workshops', pamela_dunn_workshops_path %></li>
+                </ul>
+              </li>
 		  </ul>
   	    </li>
-  	  	<li class="navbar_link"><%= link_to 'Coaching', '#', class: 'text-muted' %></li>
+  	  	<li class="navbar_link"><%= link_to 'Coaching', '#', class: 'text-muted' %>
+          <ul class="nav nav_dropdown_menu">
+              <li class="primary_links"><%= link_to 'Confidence Coaching Sessions', '#' %></li>
+              <li class="primary_links"><%= link_to 'Confidence Coaching Certifications', '#' %></li>
+              <li class="primary_links"><%= link_to 'Personal & Executive Coaching', '#' %></li>
+              <li class="primary_links"><%= link_to 'Mastery Mentorship Program', '#' %></li>
+          </ul>
+        </li>
   	  	<li class="navbar_link"><%= link_to 'Enroll', '#', class: 'text-muted' %></li>
-  	  	<li class="navbar_link"><%= link_to 'Resources', '#', class: 'text-muted' %></li>
-  	  	<li class="navbar_link"><%= link_to 'Products', '#', class: 'text-muted' %></li>
+  	  	<li class="navbar_link"><%= link_to 'Resources', '#', class: 'text-muted' %>
+          <ul class="nav nav_dropdown_menu">
+              <li class="primary_links"><%= link_to 'Podcasts', '#' %></li>
+              <li class="primary_links"><%= link_to 'Videos', '#' %></li>
+              <li class="primary_links"><%= link_to 'Downloads', '#' %></li>
+          </ul>
+        </li>
+  	  	<li class="navbar_link"><%= link_to 'Products', '#', class: 'text-muted' %>
+          <ul class="nav nav_dropdown_menu">
+              <li class="primary_links"><%= link_to 'Books', pamela_dunn_books_path %></li>
+              <li class="primary_links"><%= link_to 'Online Courses', '#' %></li>
+              <li class="primary_links"><%= link_to 'Meditation Inspiration', '#' %></li>
+          </ul>
+        </li>
   	  	<li class="navbar_link"><%= link_to 'Blog', '/posts', class: 'text-muted' %></li>
   	  	<li class="navbar_link"><%= link_to 'Peaceful Project', '#', class: 'text-muted' %></li>
   	  	<li class="navbar_link"><%= link_to 'Contact', '#', class: 'text-muted' %></li>
